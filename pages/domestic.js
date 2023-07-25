@@ -3,16 +3,16 @@ import en from '../locales/en';
 import jp from '../locales/jp';
 import { useRouter } from "next/router";
 import MainLayout from "../layout/MainLayout";
-
+import Head from "next/head";
 const domestic = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'jp' ? jp : en;
   return (
     <>
-    <head>
+    <Head>
       <title>{t.domesticProjects}</title>
-    </head>
+    </Head>
     <MainLayout>
       <div
         className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
