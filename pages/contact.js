@@ -27,7 +27,7 @@ const contact = () => {
           >
             <div className="flex h-full items-center justify-center text-center text-white">
               <h1 className="mb-6 text-2xl md:text-3xl font-bold">
-                お問い合わせ
+                {t.contactPage.title}
               </h1>
             </div>
           </div>
@@ -75,7 +75,7 @@ const contact = () => {
                 </div>
 
                 <h2 className="text-2xl md:text-3xl font-bold m-8">
-                  お問い合わせ
+                  {t.contactPage.title}
                 </h2>
                 <form>
                   <div className="form-group mb-6">

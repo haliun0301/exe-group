@@ -57,7 +57,7 @@ const myanmar = () => {
   return (
     <>
     <Head>
-      <title>{t.myanmarPage.head_title}</title>
+      <title>{t.myanmar}</title>
     </Head>
     <MainLayout>
       <div

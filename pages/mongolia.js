@@ -67,7 +67,7 @@ const mongolia = () => {
   return (
     <>
     <Head>
-      <title>{t.mongoliaPage.head}</title>
+      <title>{t.mongolia}</title>
     </Head>
     <MainLayout>
       <div

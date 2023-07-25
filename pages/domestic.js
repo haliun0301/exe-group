@@ -9,6 +9,10 @@ const domestic = () => {
   const { locale } = router;
   const t = locale === 'jp' ? jp : en;
   return (
+    <>
+    <head>
+      <title>{t.domesticProjects}</title>
+    </head>
     <MainLayout>
       <div
         className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
@@ -101,6 +105,8 @@ const domestic = () => {
         </div>
       </div>
     </MainLayout>
+    </>
+    
   );
 };
 
