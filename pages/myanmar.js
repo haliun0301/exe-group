@@ -187,7 +187,8 @@ const myanmar = () => {
                   &nbsp;{t.myanmarPage.line18}<br></br>-   
                   &nbsp;{t.myanmarPage.line19}<br></br>-   
                   &nbsp;{t.myanmarPage.line20}<br></br>-   
-                  &nbsp;{t.myanmarPage.line21}<br></br>-
+                  &nbsp;{t.myanmarPage.line21}<br></br>
+                  &nbsp;{t.myanmarPage.line21_1}<br></br>-
                   &nbsp;{t.myanmarPage.line22}<br></br>-   
                   &nbsp;{t.myanmarPage.line23}<br></br>-   
                   &nbsp;{t.myanmarPage.line24}<br></br>
@@ -202,7 +203,7 @@ const myanmar = () => {
                   &nbsp;{t.myanmarPage.line28}<br></br>- 
                   &nbsp;{t.myanmarPage.line29}<br></br>-
                   &nbsp;{t.myanmarPage.line30}<br></br>-
-                  &nbsp;{t.myanmarPage.line31}
+                  &nbsp;&nbsp;{t.myanmarPage.line31}
                 </div>
               </div>
             </div>
