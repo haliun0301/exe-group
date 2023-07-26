@@ -22,7 +22,7 @@ export default function Home()
           <title>{t.home}</title>
       </Head>
       <MainLayout>
-       <Slider />
+        <Slider />
         <Aboutexe />
         <Recruitment />
         <Domesticprojects />

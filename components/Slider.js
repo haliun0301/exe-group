@@ -20,8 +20,8 @@ const Slider = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
       >
         <div className="md:mb-0 md:pb-4 md:max-w-3xl text-[#0E1447] font-bold">
-          <h3 className="text-2xl md:text-4xl xl:text-5xl ">{t.slider1}</h3>
-          <h3 className="text-2xl md:text-4xl xl:text-5xl  ml-4">{t.slider2}</h3>
+          <h3 className="text-2xl md:text-3xl xl:text-4xl ">{t.slider1}</h3>
+          <h3 className="text-2xl md:text-3xl xl:text-4xl  ml-4">{t.slider2}</h3>
         </div>
       </div>
     </div>

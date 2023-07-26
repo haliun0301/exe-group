@@ -78,7 +78,7 @@ const about = () => {
         {/* table1 */}
         <div className="grid justify-center about-text text-gray-500 px-4">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
-            <p className="text-center text-lg font-medium mt-3 text-gray-300">
+            <p className="text-center text-lg font-medium mt-3 text-white">
               {t.aboutPage.table1}
             </p>
           </div>
@@ -102,7 +102,7 @@ const about = () => {
               {t.aboutPage.row3_21}<br></br>
               {t.aboutPage.row3_22}<br></br>
               {t.aboutPage.row3_23}<br></br>
-              <a className="text-sm">{t.aboutPage.row3_24}</a>
+              <a className="">{t.aboutPage.row3_24}</a>
               <br></br>
               {t.aboutPage.row3_25}<br></br>
               {t.aboutPage.row3_26}<br></br>
@@ -143,7 +143,7 @@ const about = () => {
         {/* table2 */}
         <div className="grid justify-center mt-10 mb-10 about-text px-4 text-gray-500">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
-            <p className="text-center text-lg font-medium text-gray-300 mt-3">
+            <p className="text-center text-lg font-medium text-white mt-3">
             {t.aboutPage.table2}
             </p>
           </div>

@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
       <div className="bg-darkblue grid gap-0 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
         <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg md:pl-4 mt-4 md:p-4">
-          <h2 className="ml-4 underline text-white text-base mb-8">
+          <h2 className="ml-4 underline text-gray-300 text-base mb-8">
             {t.footer.contactUs}
           </h2>
 
@@ -113,13 +113,13 @@ const Footer = () => {
         </div>
 
         <div className="font-bold max-w-lg mt-8 md:col-span-2 lg:col-span-2 pl-4">
-          <h2 className="mb-5 text-white text-base underline">
+          <h2 className="mb-5 text-gray-300 text-base underline">
             {t.footer.about}
           </h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/about">
-                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                   <span className="">{t.footer.companyOverview}</span>
                 </a>
               </Link>
@@ -128,32 +128,32 @@ const Footer = () => {
         </div>
 
         <div className="font-bold max-w-lg pl-4 pb-4 mt-4 md:p-4 md:col-span-2 lg:col-span-2">
-          <h2 className="underline mb-5 text-white text-md ">{t.footer.projects}</h2>
+          <h2 className="underline mb-5 text-gray-300 text-base">{t.footer.projects}</h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/overseas">
-                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                   <span className="">{t.footer.overseasProjects}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/myanmar">
-                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                   <span className="">- {t.footer.myanmar}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/mongolia">
-                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                   <span className="">- {t.footer.mongolia}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/domestic">
-                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                   <span className="">{t.footer.domesticProjects}</span>
                 </a>
               </Link>
@@ -161,20 +161,20 @@ const Footer = () => {
           </ul>
         </div>
         <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-2 sm:col-span-1 md:col-span-3 lg:col-span-2">
-          <h2 className="mb-5 text-white text-base underline ">
+          <h2 className="mb-5 text-gray-300 text-base underline ">
             {t.footer.inter}
           </h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/intership">
-                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                   <span className=" ">{t.footer.internship}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/recruit">
-                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                   <span className="">{t.footer.newGrad}</span>
                 </a>
               </Link>
