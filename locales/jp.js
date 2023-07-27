@@ -8,6 +8,7 @@ export default {
     contact: 'お問い合わせ',
     slider1: '全てのマーケットには',
     slider2: '最高の投資機会がある',
+    slider3: '',
     myanmar: "ミャンマー",
     mongolia: "モンゴル",
     recruit: "リクルート",
