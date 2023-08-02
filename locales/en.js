@@ -12,6 +12,7 @@ export default {
     myanmar: "Myanmar",
     mongolia: "Mongolia",
     recruit: "Recruit",
+    news: "Announcement",
 
     aboutPage: {
         about: "About",
@@ -401,6 +402,12 @@ export default {
         internship: "Internship",
         newGrad: "New Graduates & Mid-Career Recruitment",
         copyRight: "Copyright © 2022 Excel Co., Ltd. All Rights Reserved."
+    },
+    ProjectsPage: {
+        title1: "bla",
+        text1: "bla",
+        title2: "bla",
+        text2: "bla",
     },
     contactPage: {
         title: "Contact",

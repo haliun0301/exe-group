@@ -12,6 +12,7 @@ export default {
     myanmar: "ミャンマー",
     mongolia: "モンゴル",
     recruit: "リクルート",
+    news: "ニュース",
     
     aboutPage: {
         about: 'エクセについて',
@@ -403,6 +404,12 @@ export default {
         internship: "インターンシップ",
         newGrad: "新卒・中途採用",
         copyRight: "Copyright © 2022 株式会社エクセ All Rights Reserved.."
+    },
+    ProjectsPage: {
+        title1: "Japan",
+        text1: "Japan",
+        title2: "Japan",
+        text2: "Japan",
     },
     contactPage: {
         title: "お問い合わせ",
