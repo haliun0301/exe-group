@@ -11,7 +11,8 @@ const Projects = () => {
   const t = locale === 'jp' ? jp : en;
   return (
     <div className=" bg-[#f6fafd]">
-      <div className="md:p-4">
+      <router-link to="/projects1">
+        <div className="md:p-4">
         <h2 className="font-bold flex text-2xl md:text-3xl mb-5 mt-5 lg:p-6 text-gray-700 justify-center">
           {t.projects.bigtitle}
         </h2>
@@ -37,7 +38,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
+      </router-link>
+      
+    <router-link to="/projects2">
       <div className="flex justify-center md:p-4">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div>
@@ -59,6 +62,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
+    </router-link>
+      
     </div>
   );
 };
